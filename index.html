@@ -2,9 +2,161 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahane Vaibhav - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Web Developer | Full Stack | Passionate About Code</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+    
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a full stack web developer with a passion for creating amazing websites and applications. I have experience with a variety of technologies, including HTML, CSS, JavaScript, Python, Django, and more. Let's build something great together!</p>
+    
+            <!-- Profile Picture -->
+            <img src="/images/Profile.jpg" alt="Profile Picture" class="profile-picture">
+    
+            <!-- Skills Section -->
+            <div class="skills">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;" data-value="90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;" data-value="85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;" data-value="80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%;" data-value="70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-django"></i>
+                    <span>Django</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;" data-value="75%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-node"></i>
+                    <span>Node.js</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;" data-value="80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Snake Game</h3>
+                <p>An interactive and fun Snake Game developed using JavaScript and HTML5 Canvas.</p>
+            </div>
+            <div class="project-card">
+                <h3>Student Study Portal</h3>
+                <p>A comprehensive study portal for students to access study materials and resources.</p>
+            </div>
+            <div class="project-card">
+                <h3>Rental Service</h3>
+                <p>A web application for managing and renting out properties with a user-friendly interface.</p>
+            </div>
+            <div class="project-card">
+                <h3>Rental Property Management</h3>
+                <p>A rental property management system to help landlords manage their properties, track payments, and handle tenant requests seamlessly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Understanding the Basics of Web Development</h3>
+                <p>Learn the essential skills needed to start your journey as a web developer.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Top 5 Trends in UI/UX Design</h3>
+                <p>Explore the latest trends in UI/UX design and how they can improve user experience.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>How to Build a Portfolio Website</h3>
+                <p>Your portfolio is your digital resume, showcasing your skills, experience, and projects. A well-crafted portfolio can help you stand out in the competitive world of web development.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="mailto:Vaibhavrahane37@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rahane Vaibhav</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
